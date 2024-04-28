@@ -15,7 +15,9 @@ public interface ILista<T> {
 
 	public boolean isEmpty();
 
-	public No<T> get(int posicao) throws Exception;
+	public No<T> getNo(int posicao) throws Exception;
+
+	public T get(int posicao) throws Exception;
 
 	public int size();
 }
